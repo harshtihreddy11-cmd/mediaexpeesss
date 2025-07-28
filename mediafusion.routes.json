@@ -1,0 +1,50 @@
+{
+  "_globals": {
+    "base": "https://mediafusion.elfhosted.com"
+  },
+
+  "streams": {
+    "enabled": true,
+    "base_url": "{base}/stream/{type}/{id}.json",
+    "response_type": "json",
+    "movie":   {},
+    "series":  {},
+    "json_format": {
+      "results": "streams",
+      "url":      "url",
+      "title":    "title",
+      "size":     "size",
+      "quality":  "quality"
+    }
+  },
+
+  "catalogs": {
+    "enabled": true,
+    "base_url": "{base}/catalog/{type}/{id}/{page}.json",
+    "response_type": "json",
+
+    "movie": {
+      "ids": [
+        "hindi_dubbed", "hindi_hdrip", "hindi_old", "hindi_tcrip",
+        "telugu_dubbed","telugu_hdrip","telugu_old","telugu_tcrip",
+        "prowlarr_movies","mediafusion_search_movies"
+      ]
+    },
+    "series": {
+      "ids": [
+        "hindi_series","telugu_series",
+        "prowlarr_series","mediafusion_search_series"
+      ]
+    },
+    "tv": {
+      "ids": ["mediafusion_search_tv"]
+    },
+
+    "json_format": {
+      "results": "metas",
+      "title":   "name",
+      "poster":  "poster",
+      "id":      "id"
+    }
+  }
+}
