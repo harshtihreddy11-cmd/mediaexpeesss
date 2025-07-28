@@ -4,6 +4,6 @@
   "version": 2,
   "icon": "https://mediafusion.elfhosted.com/static/images/mediafusion-elfhosted-logo.png",
   "description": "Hindi / Telugu / Tamil HD & 4K streams from the MediaFusion Stremio add-on",
-  "package": "https://raw.githubusercontent.com/YourUser/YourRepo/main/mediafusion.routes.json",
+  "package": "https://raw.githubusercontent.com/harshtihreddy11-cmd/mediaexpeesss/refs/heads/main/mediafusion.routes.json",
   "min_app_version": 88
 }
